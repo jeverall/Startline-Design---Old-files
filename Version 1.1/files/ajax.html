@@ -1,0 +1,63 @@
+
+<!doctype html>
+<html>
+<head>
+    <title>Learning jQuery</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+	<script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>    
+	
+	<style>
+	
+	body {
+	height:100%;
+	width:100%;
+	}
+		
+	#circle {
+	width:100px;
+	height:100px;
+	background-color:green;
+	border-radius:10em;
+	margin:10px;
+	text-align:center;
+	display:table;
+	position:relative;
+	}
+	
+	#circle p {
+	display:table-cell;
+	vertical-align:middle;
+	text-align:center;
+	}
+	
+	.square {
+	width:200px;
+	height:200px;
+	background-color:red;
+	margin:10px;
+	}
+		
+	</style>
+
+</head>
+
+<body>
+
+	<h1>Testing Ajax</h1>
+
+	<script>
+	
+	$.ajax({url:"test.html"
+		}).done(function(data) {
+			$("h1").append(data);
+			})	
+	
+	</script>
+	
+	
+</body>
+</html>
