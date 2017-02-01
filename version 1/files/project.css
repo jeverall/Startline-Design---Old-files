@@ -1,0 +1,42 @@
+body {
+		font-family:"Comic Sans MS", cursive, sans-serif;
+	}
+	
+	#container {
+	width:500px;
+	height:500px;
+	border:5px inset #aaa;
+	margin:5px 10px;
+	}
+	
+	#box {
+	width:30%;
+	height:30%;
+	margin:10px;
+	display:none;
+	background-color:red;
+	position:relative;
+	}
+	
+	.bold {
+		font-weight:bold;
+	}
+	
+	#high {
+		float:left;
+		border:5px inset #aaa;
+		padding:5px;
+		margin:5px 10px;
+	}
+	
+	h1 {
+		margin:0;
+	}
+	
+	.left {
+		float:left;
+	}
+	
+	.clear {
+		clear:both;
+	}

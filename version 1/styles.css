@@ -1,0 +1,240 @@
+body {
+			margin:0;
+			font-family:arial,helvetica,sans-serif;
+			background-color:#f4f4f4;
+		}
+		
+		#container {
+		
+			width:900px;
+			margin:0 auto;
+			background-color:#fefefe;
+			height:600px;
+		
+		}
+		
+		.fixedwidth {
+		
+			background-color:#fefefe;
+			height:600px;
+			border-right:2px solid #ddd;
+			border-left:2px solid #ddd;
+			border-bottom:2px solid #ddd;
+			margin:0;
+					
+		}
+		
+		.content {
+			padding:20px;
+			width:63%;
+			border-radius:0.4em;
+			/*position:relative;*/
+		}
+			
+		#logo {
+		background-color: #eee;
+		width:100%;
+		margin:0;
+		padding:0;
+		 
+		}
+		
+		#logo img {
+		
+		width:100%; 
+		margin:0 auto;
+		padding:0;
+		
+		}
+		
+		@font-face {
+			font-family:mainFont;
+			src: url(fonts/Gauge-Regular.woff);
+		}
+		
+		@font-face {
+			font-family:bodyFont;
+			src: url(fonts/Warenhaus-Standard.otf);
+		}
+		
+		nav {
+		
+			height:30px;
+			width:100%;
+			background-color:#ddd;
+			margin:0;
+		
+		}
+		
+		a {
+		text-decoration:none;
+		color:#33f;
+		font-family: "Arial Black", Gadget, sans-serif;
+		}
+		
+		a:hover {
+			text-decoration:underline;
+			color:#66f;
+		}
+		
+		.navigation {
+		
+		float:left;
+		padding:2px 10px 2px 15px;
+		margin-left:2px;
+		border-top:2pt solid #efefef;
+		border-right:2pt solid #efefef;
+		border-bottom:2pt solid #efefef;
+		border-radius:0.4em;
+		}
+		
+		h1 {
+			margin:0;
+			padding:0;
+		}
+		
+		article {
+			float:left;
+			background-color:#ededed;
+			margin:10px;
+			position:relative;
+
+		}
+		
+		#twitter {
+			margin:10px;
+			padding:0;
+			width:28%; 
+			float:right;
+		}
+		
+		#moto {
+		
+		padding:3px 10px 2px 10px;
+		float:right;
+		font-family: bodyFont, "Arial Black", Gadget, sans-serif;
+		font-size:20px; 
+		font-weight:bold; 
+		color:green;
+		}
+		
+		#squirrel {
+			float:right;
+			width:100px;
+			margin-right:10px;
+		}
+		
+		#squirrel img {
+			width:100%;
+		}
+		
+		.clear {
+			clear:both;
+		}
+		
+		footer {
+			text-align:right;
+			padding:10px;
+			font-family:arial;
+		}
+		
+		@media screen and (max-width: 900px) {
+			
+			.navigation {
+				padding:3px 10px 3px 10px;
+			}
+			
+			#moto {
+			padding:3px 10px 3px 10px;
+			}
+			
+			#container {
+				width:700px;
+			}
+			
+			.content {
+				width:60.5%
+			}
+			
+		/*	
+		@media screen and (max-width: 700px) {
+			h1 {
+				font-size: medium;
+			}
+			
+			p, a {
+				font-size: small;
+			}
+			
+			.navigation {
+				padding:5px 10px 5px 10px;
+			}
+			
+			#container {
+				width:600px;
+			}
+			
+		@media screen and (max-width: 600px) {
+			h1 {
+				font-size: small;
+			}
+			
+			p, a {
+				font-size: x-small;
+			}
+			
+			.navigation {
+				padding:5px 10px 5px 10px;
+			}
+			
+			#twitter {
+				display:none;
+			}
+			
+			#container {
+				width:500px;
+			}
+			*/
+			@media screen and (max-width: 414px) {
+			h1 {
+				font-size: large;
+			}
+			
+			p, a {
+				font-size: large;
+			}
+			
+			#moto {
+			display:none;
+			}
+			
+			#twitter {
+			float:none;
+			width:91.1%;
+			}
+			
+			.navigation {
+				padding:5px 10px 5px 10px;
+			}
+			
+			#container {
+				width:350px;
+				height:1000px;
+			}
+			
+			.content {
+				width:80%;
+				margin-left:0 auto;
+				margin-right:0 auto;
+			}
+			
+			.fixedwidth {
+				height:1200px;
+			}
+			/*
+			@media screen and (max-width: 300px) {
+			
+			#container {
+				width:300px;
+			}
+			*/
